@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers - Barber Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>باربر شاپ</h1>
+        <nav>
+            <ul class="link">
+            <a href="index.html">خانه</a>
+            <a href="services.html">خدمات</a>
+            <a href="barbers.html">آرایشگرها</a>
+            <a href="appointments.html">نوبت ها</a>
+            <a href="customers.html">مشتریان</a>
+        </ul>
+        </nav>
+    </header>
+    <mein>
+        <h2 class="cust">مشتریان ما</h2>
+        <form onsubmit="addCustomer(event)">
+            <input type="text" placeholder="Custimer Name" required>
+            <input type="text" placeholder="Phone Number" required>
+            <input type="text" placeholder="Address">
+            <button type="submit">Add Custimer</button>
+        </form>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Address</th>
+            </tr>
+
+            <tr>
+            <td>1</td>
+            <td>Ahmad</td>
+            <td>0700000001</td>
+            <td>Kabul</td>   
+        </tr>
+
+        <tr></tr>
+            <td>2</td>
+            <td>Ali</td>
+            <td>0700000012</td>
+            <td>Kunar</td>   
+        </tr>
+
+        <tr></tr>
+            <td>3</td>
+            <td>Nabi</td>
+            <td>0700000123</td>
+            <td>Takhar</td>   
+        </tr>
+        </table>
+    </mein>
+    <footer>
+        <p>2026 Barber Shop</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Barbers - Barber Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>باربر شاپ</h1>
+        <nav>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="services.html">خدمات</a></li>
+            <li><a href="barbers.html">آرایشگر ها</a></li>
+            <li><a href="appointments.html">نوبت ها</a></li>
+            <li><a href="customers.html">مشتریان</a></li>
+        </nav>
+    </header>
+    <main>
+        <h2>آرایشگرهای ما</h2>
+        <form onsubmit="addBarber(event)">
+            <input type="text" placeholder="Barber Name" required>
+            <input type="text" placeholder="Phone Number" required>
+            <input type="text" placeholder="Address">
+            <button type="submit">Add Barber</button>
+        </form>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Experience</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>حمید</td>
+                <td>0700000011</td>
+                <td>4 سال</td>
+            </tr>
+            <tr></tr>
+                <td>2</td>
+                <td>نجیب</td>
+                <td>0700000022</td>
+                <td>5 سال</td>
+            </tr>
+        </table>
+    </main>
+    
+    <footer>
+        <p>2026 Barber Shop</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
